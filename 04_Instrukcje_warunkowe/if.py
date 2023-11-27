@@ -41,3 +41,30 @@ if (suma_cyfr % 7 == 0) and (i % 2 == 0):
     print(f'Dobra liczba')
 else:
     print(f'Zła liczba')
+
+
+
+
+
+
+
+
+
+
+
+
+#Moj program
+#- wczytaj liczbę 2 cyfrową - wypisz `Dobra liczba` jeśli suma jej cyfr dzieli się przez 7 oraz liczba jest parzysta, a `Zła liczba` w przeciwnym wypadku
+c = int(input('podaj liczbę dwucyfrową'))
+ if c% 2 ==0:
+     print(f'{c} jest parzyste')
+ else:
+     print(f'{c} jest nieparzyste')
+
+
+i = int(input("podaj liczbę dwucyfrową"))
+suma_cyfr_dwuliczbowych = (i % 10 + i // 10)
+if (suma_cyfr_dwuliczbowych % 7 == 0) and (i % 2 == 0):
+    print(f'Dobra liczba')
+else:
+    print(f'Zła liczba')
