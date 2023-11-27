@@ -52,7 +52,7 @@ else:
 
 
 
-
+##ttt
 #Moj program
 #- wczytaj liczbę 2 cyfrową - wypisz `Dobra liczba` jeśli suma jej cyfr dzieli się przez 7 oraz liczba jest parzysta, a `Zła liczba` w przeciwnym wypadku
 c = int(input('podaj liczbę dwucyfrową'))
