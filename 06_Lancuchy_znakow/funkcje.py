@@ -29,3 +29,8 @@ napis = "ala ma kota"
 napis = napis.title().replace('Ala', 'Tomek')
 napis
 
+
+
+# wasy
+
+s = 'Ala ma {0}', kotów.format(5)

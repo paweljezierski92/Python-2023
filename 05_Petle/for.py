@@ -21,3 +21,17 @@ for i in range(10):
         break
 else:
     print("Koniec")
+
+
+#Zadanie z for:
+##wczytaj przy użyciu `input()` liczbę; wypisz sumę jej cyfr
+
+
+liczba = input("Podaj liczbe")
+
+suma_liczb = 0
+for g in liczba:
+
+    suma_liczb += int(g)
+
+print(f"suma liczby{liczba} wynosi:{suma_liczb}")

@@ -56,9 +56,9 @@ else:
 #Moj program
 #- wczytaj liczbę 2 cyfrową - wypisz `Dobra liczba` jeśli suma jej cyfr dzieli się przez 7 oraz liczba jest parzysta, a `Zła liczba` w przeciwnym wypadku
 c = int(input('podaj liczbę dwucyfrową'))
- if c% 2 ==0:
+if c% 2 ==0:
      print(f'{c} jest parzyste')
- else:
+else:
      print(f'{c} jest nieparzyste')
 
 

@@ -17,4 +17,6 @@ s * 3
 "Python" > "Java"
 s == "Ala"
 
-"10" < "2"
+"10" < "2" # znaki
+
+#liczby

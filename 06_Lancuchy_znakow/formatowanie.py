@@ -32,3 +32,14 @@ f'{pi:^30.2f}'
 f'{"-"*10}HELLO{"-"*10}'
 f'{"HELLO":-^25s}'
 
+
+#wczytać z przez `input` liczbę, stworzyć choinkę o odpowiedniej wysokosci
+
+
+wysokosc = int (input("Podaj wysokość choinki: "))
+szerokosc = 1
+for i in range (wysokosc):
+    print (f'{"*"*szerokosc:^{wysokosc*2}}')
+    szerokosc += 2
+print (f'{"*":^{wysokosc*2}}')
+print (f'{"***":^{wysokosc*2}}')
