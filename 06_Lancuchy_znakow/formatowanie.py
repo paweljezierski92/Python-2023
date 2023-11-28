@@ -33,6 +33,9 @@ f'{"-"*10}HELLO{"-"*10}'
 f'{"HELLO":-^25s}'
 
 
+
+
+
 #wczytać z przez `input` liczbę, stworzyć choinkę o odpowiedniej wysokosci
 
 

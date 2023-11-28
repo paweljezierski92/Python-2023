@@ -42,3 +42,43 @@ s2 = '.|.'
 s2.join(["Ala", "ma", "kota"])
 
 '.' in s2
+
+
+#1A zadanie stwórz pętle pobierającą napisy z wejścia aż do napotkania pustego napisu.
+#1B wypisz listę posortowaną alfabetycznie wczytanych napisów
+
+
+
+lista = []
+
+while True:
+    napis = input("Podaj słowo: ")
+
+    if napis:
+        lista.append(napis)
+        continue
+    else:
+        print("Nie podałeś słowa")
+        break
+
+print(lista)
+
+lista.sort()
+
+print(lista)
+
+
+#2 .stwórz pętle pobierającą liczby z wejścia aż do napotkania pustego napisu; wypisz ostatnią parzystą
+
+
+l = []
+while True:
+    liczba = input("Podaj liczbę, a dodam ją do listy: ").strip()
+    if liczba == "":
+        break
+    l.append(int(liczba))
+l.sort()
+for i in range(1, len(l)):
+    if l[-1*i]%2 == 0:
+        print(f"Ostatnia parzysta liczba to: {l[-1*i]}")
+        break
