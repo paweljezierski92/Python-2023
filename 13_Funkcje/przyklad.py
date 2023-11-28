@@ -71,3 +71,36 @@ def choinka(poziom, separator=" ", znak="*"):
 
 choinka(5)
 choinka(znak='#', poziom=6)
+
+
+
+#Zadanie 1 z fukncji.
+#- stworzyc słownik `{ 'first': funkcja1, 'second': funkcja2 }`, wczytać przez `input` klucz, wywołać funkcję
+
+def funkcja1(x):
+    suma = 1 +1
+    return suma
+
+def funkcja2(x):
+    roznica = 4 - 3
+    return roznica
+
+slownik = { 'first': funkcja1, 'second': funkcja2 }
+
+klucz = input("Podaj klucz")
+
+funkcja = slownik[klucz]
+print(funkcja(2))
+
+
+#Zadanie 2 z funkcji.
+# - stworzyc funckcję `alphabet_range` działająca jak `range` ale dla liter (z trzema parametrami - `start`, `end`, `step`)
+#   - przykład: `alphabet_range('E')` -> `['A', 'B', 'C', 'D']` - albo jeszcze lepiej generator
+
+# moze być step ale nie musi, ale w tym przypadku step mozemy dac 2
+def alphabet_range(start="A", end="Z",step=1,):
+    return (chr(x) for x in range(ord(start), ord(end), step))
+
+
+for i in alphabet_range('G'):
+    print(i)
